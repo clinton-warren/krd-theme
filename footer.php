@@ -2,17 +2,7 @@
 	<div id="footer">
 		<div class="inside">		
 		<div class="main clearfix">
-		<?php	
-		if(is_front_page() && is_active_sidebar('footer_home')) : dynamic_sidebar('footer_home'); 			
-		elseif(is_archive() && is_active_sidebar('footer_posts')) : dynamic_sidebar('footer_posts');
-		elseif(is_single() && is_active_sidebar('footer_posts')) : dynamic_sidebar('footer_posts');
-		elseif(is_home() && is_active_sidebar('footer_posts')) : dynamic_sidebar('footer_posts');
-		elseif(is_page() && is_active_sidebar('footer_pages')) : dynamic_sidebar('footer_pages');		
-		else : ?>
-	
-			<?php if (!dynamic_sidebar('footer_default')); ?>						
-			
-		<?php endif; ?>				
+				<img src="<?php bloginfo('stylesheet_directory')?>/images/footer_left.png" id="footer-logo"> 
 		</div><!-- end footer main -->							
 			
 		<div class="secondary clearfix">	

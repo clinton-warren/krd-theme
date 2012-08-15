@@ -1569,7 +1569,7 @@ ol#commentslist {
 #footer .secondary {	
 	padding-top: 20px;
 	margin: 0 3%;
-	border-top: 1px solid #2f2f2f;			
+	border-top: 0px;			
 }
 
 #footer .secondary .left {
@@ -1799,4 +1799,10 @@ ol#commentslist {
 	#commentForm label, #comments label {
 		font-size: .8em;
 	}	
+}
+
+#footer-logo {
+position:relative;
+top:-40px;	
+}
 }
