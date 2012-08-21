@@ -1805,4 +1805,27 @@ ol#commentslist {
 position:relative;
 top:-40px;	
 }
+
+textarea.wpcf7-textarea {
+	width:236px !important;
+}
+#contactleft {
+	
+}
+
+.contactform {
+	padding:2%;
+	
+	box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 20px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 20px rgba(0,0,0,0.1) inset;
+}
+.contactform:after {
+	box-shadow: 0 7px 16px rgba(0,0,0,0.4);
+}
+
+.lift {
+    background: url("images/nav_lift.png") no-repeat scroll center top transparent;
+    display: block;
+    height: 0;
+    width: 90px;
 }

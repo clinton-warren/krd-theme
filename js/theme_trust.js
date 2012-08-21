@@ -119,7 +119,7 @@ function projectThumbInit() {
 	
 	
 jQuery.noConflict();
-jQuery(window).load(function(){		
+jQuery(window).load(function(){	
 	projectThumbInit();	
 	projectFilterInit();
 	jQuery(".videoContainer").fitVids();
