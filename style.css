@@ -1829,3 +1829,8 @@ textarea.wpcf7-textarea {
     height: 0;
     width: 90px;
 }
+
+.wp-caption-text {
+	text-align:center;
+}
+}
