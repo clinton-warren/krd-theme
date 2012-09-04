@@ -1806,15 +1806,14 @@ position:relative;
 top:-40px;	
 }
 
-textarea.wpcf7-textarea {
-	width:236px !important;
-}
+
 #contactleft {
 	
 }
 
 .contactform {
-	padding:2%;
+	padding-left:8%;
+	padding-top:2%;
 	
 	box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 20px rgba(0,0,0,0.1) inset;
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 20px rgba(0,0,0,0.1) inset;
@@ -1823,14 +1822,31 @@ textarea.wpcf7-textarea {
 	box-shadow: 0 7px 16px rgba(0,0,0,0.4);
 }
 
-.lift {
-    background: url("images/nav_lift.png") no-repeat scroll center top transparent;
-    display: block;
-    height: 0;
-    width: 90px;
-}
 
 .wp-caption-text {
 	text-align:center;
 }
+
+#branding,#package,#print,#seo,#webdevelopment,#webdesign {
+	float:left;
+	margin-bottom:5%;
+	width:220px;
+	height:170px;
 }
+#branding, #package, #seo, #webdevelopment {
+	margin-right:14%;
+}
+#print, #webdesign {
+	margin-right:0%;
+}
+
+
+
+
+
+
+
+
+
+
+
